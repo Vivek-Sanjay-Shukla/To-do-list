@@ -117,8 +117,7 @@ const Todo = () => {
             </div>
 
 {/* show the items */}
-            <div className="showItems">
-         
+            <div className="showItems"> 
           {items.map((element,index)=>{
                return(
                <div className="eachItem" key={index}s>
@@ -131,9 +130,7 @@ const Todo = () => {
              </div>
                )
           })}
-           
-
-            </div>
+          </div>
 
             <div className="showItems">
               <button className='btn effect04' data-sm-link-text="Remove All" onClick={removeAll}><span>Checklist</span></button>
