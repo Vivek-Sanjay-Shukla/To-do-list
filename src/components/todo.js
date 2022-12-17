@@ -38,6 +38,8 @@ const Todo = () => {
               })
 
              )
+
+             setinputdata("");
              setToggleBtn(false);
           }
           else{
